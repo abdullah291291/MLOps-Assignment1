@@ -10,7 +10,7 @@ import pickle
 
 ## preparing dataset
 df = pd.read_csv("./data/data.csv")
-df.drop(labels=['street','date','country'],axis=1,inplace=True)
+df = df[['price','bedrooms','bathrooms','sqft_living','sqft_lot','floors','waterfront','view','condition','sqft_above','sqft_basement']]
 
 label_encoder = LabelEncoder()
 
