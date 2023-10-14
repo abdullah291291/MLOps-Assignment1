@@ -1,7 +1,8 @@
 import pickle
+import pytest
 
 
-
+print("Pakistan")
 
 def load_model():
     model = pickle.load("model.pkl")
