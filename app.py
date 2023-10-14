@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import pickle
 
-app = Flask(__name)
+app = Flask(__name__)
 
 # Load the trained Linear Regression model
 with open('model.pkl', 'rb') as model_file:
