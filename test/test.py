@@ -2,7 +2,7 @@ import pickle
 import pytest
 
 
-print("Pakistan")
+# print("Hello World")
 
 def load_model():
     model = pickle.load("model.pkl")
